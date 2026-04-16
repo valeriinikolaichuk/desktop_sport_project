@@ -1,0 +1,9 @@
+# ninja log v6
+16	2224	7980400973356364	powerlifting_competition_table_autogen/timestamp	11b56b6807391097
+16	2224	7980400973356364	powerlifting_competition_table_autogen/mocs_compilation.cpp	11b56b6807391097
+16	2224	7980400973356364	C:/D/powerlifting_competition_table/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/powerlifting_competition_table_autogen/timestamp	11b56b6807391097
+16	2224	7980400973356364	C:/D/powerlifting_competition_table/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/powerlifting_competition_table_autogen/mocs_compilation.cpp	11b56b6807391097
+2233	7863	7980400974546712	CMakeFiles/powerlifting_competition_table.dir/powerlifting_competition_table_autogen/mocs_compilation.cpp.obj	ca63b71284b2d79e
+2237	7878	7980400974586753	CMakeFiles/powerlifting_competition_table.dir/main.cpp.obj	2319326e2201820f
+2241	7888	7980400974626757	CMakeFiles/powerlifting_competition_table.dir/mainwindow.cpp.obj	70edc68dbf1bb39c
+7888	8389	7980401031106318	powerlifting_competition_table.exe	4da49a5ab5233faa
