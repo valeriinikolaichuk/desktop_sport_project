@@ -25,6 +25,8 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         ${PROJECT_SOURCES}
         logindialog.h logindialog.cpp logindialog.ui
         databasemanager.h databasemanager.cpp
+        createcompetitiondialog.h createcompetitiondialog.cpp createcompetitiondialog.ui
+
     )
 # Define target properties for Android with Qt 6 as:
 #    set_property(TARGET powerlifting_competition_table APPEND PROPERTY QT_ANDROID_PACKAGE_SOURCE_DIR

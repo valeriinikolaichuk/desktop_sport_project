@@ -5,6 +5,8 @@
 #include <QAction>
 #include <QDebug>
 
+#include "createcompetitiondialog.h"
+
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
     , ui(new Ui::MainWindow)
@@ -19,12 +21,13 @@ MainWindow::MainWindow(QWidget *parent)
     toolbar->addAction(createAction);
     toolbar->addAction(openAction);
 
-    connect(createAction, &QAction::triggered, this, [](){
-        qDebug() << "Create clicked";
+    connect(createAction, &QAction::triggered, this, [this](){
+        CreateCompetitionDialog dlg(this);
+        dlg.exec();
     });
 
-    connect(openAction, &QAction::triggered, this, [](){
-        qDebug() << "Open clicked";
+    connect(openAction, &QAction::triggered, this, [this](){
+        qDebug() << "Open Competition clicked";
     });
 }
 
